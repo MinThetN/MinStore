@@ -20,7 +20,7 @@ export const product = defineType({
             name: 'images',
             title: 'Images',
             type: 'array',
-            options: [{type: 'image'}]
+            of: [{type: 'image'}]
         },
         {
             name: 'description',
