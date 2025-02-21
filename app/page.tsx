@@ -9,6 +9,6 @@ export default async function Home() {
   console.log(products)
 
   return (
-    <h1 className="text-3xl flex justify-center"> hello world </h1>
+    <h1 className=""> hello world </h1>
   );
 }
